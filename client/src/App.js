@@ -3,6 +3,7 @@ import "./App.css";
 import "./global-styles/global.css";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           {/* <Route path="/resume" element={<Resume />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="*" element={<Page404 />} /> */}
         </Routes>
         <Footer />
