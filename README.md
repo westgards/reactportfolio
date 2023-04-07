@@ -24,7 +24,8 @@ A place to share my project work with fellow developers and collaborate on futur
 This app is deployed with Github Pages!
 
 
-![React Portfolio](/client/src/images/)
+![React Portfolio Project](/client/public/images/me.png)
+![React Portfolio Project](/client/public/images/projects.png)
 
 ## Features
 
